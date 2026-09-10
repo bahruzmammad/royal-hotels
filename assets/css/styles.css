@@ -107,11 +107,14 @@ button {
 .btn {
     display: inline-block;
     padding: 0.75rem 1.75rem;
+
     border: 2px solid transparent;
     border-radius: 6px;
+
     font-size: 0.95rem;
     font-weight: 600;
     text-align: center;
+
     transition: all var(--transition) ease;
 }
 
@@ -141,12 +144,16 @@ button {
 
 .header {
     position: relative;
+
     display: flex;
     flex-direction: column;
+
     min-height: 100vh;
+
     background:
-        linear-gradient(to bottom, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.1)),
+        linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.35)),
         url("../imgs/header.jpg");
+
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -159,8 +166,11 @@ button {
     top: 0;
     left: 0;
     z-index: 999;
+
     width: 100%;
+
     background-color: transparent;
+
     transition:
         background-color 0.4s ease,
         backdrop-filter 0.4s ease,
@@ -172,24 +182,31 @@ button {
     display: flex;
     align-items: center;
     justify-content: space-between;
+
     padding: 1.25rem 1.5rem;
+
     background-color: transparent;
 }
 
 .logo {
     color: var(--white);
+
     font-size: 1.5rem;
     font-weight: 700;
     letter-spacing: 1px;
+
     transition: color var(--transition) ease;
 }
 
 .nav-toggle {
     display: flex;
     align-items: center;
+
     color: var(--white);
     background-color: transparent;
+
     font-size: 1.6rem;
+
     transition: color var(--transition) ease;
 }
 
@@ -209,6 +226,7 @@ button {
     padding: 2rem;
 
     background-color: rgba(0, 0, 0, 0.92);
+
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
 
@@ -233,6 +251,7 @@ button {
     position: relative;
 
     color: var(--white);
+
     font-size: 0.95rem;
     font-weight: 500;
     letter-spacing: 0.5px;
@@ -268,8 +287,10 @@ button {
 
 .nav.scrolled {
     background-color: rgba(255, 255, 255, 0.88);
+
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
+
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
 }
 
@@ -304,28 +325,38 @@ button {
 
 .hero-title {
     color: var(--white);
+
     font-size: 3rem;
     font-weight: 700;
     line-height: 1.2;
+
     text-align: center;
+
+    text-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
 }
 
 .hero-content {
     display: flex;
     flex-direction: column;
+
     gap: 2rem;
+
     max-width: 800px;
 }
 
 .hero-desc {
     color: var(--white);
+
     font-size: 1.05rem;
+
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
 }
 
 .hero-buttons {
     display: flex;
     align-items: center;
     justify-content: center;
+
     gap: 1rem;
 }
 
@@ -337,15 +368,21 @@ button {
 
 .hotel-image {
     position: relative;
+
     margin-bottom: 0.75rem;
+
     overflow: hidden;
+
     border-radius: 0.75rem;
+
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
 }
 
 .hotel-img {
     height: 250px;
+
     object-fit: cover;
+
     transition: transform 0.4s ease;
 }
 
@@ -361,12 +398,15 @@ button {
 
     display: flex;
     align-items: center;
+
     gap: 0.2rem;
 
     padding: 0.25rem 0.6rem;
 
     background-color: var(--white);
+
     border-radius: 1rem;
+
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
 }
 
@@ -377,19 +417,23 @@ button {
 
 .hotel-title {
     margin-bottom: 0.25rem;
+
     color: var(--dark);
+
     font-size: 1.25rem;
     font-weight: 600;
 }
 
 .hotel-price {
     color: var(--primary);
+
     font-size: 1.15rem;
     font-weight: 700;
 }
 
 .hotel-price span {
     color: var(--dark);
+
     font-size: 0.85rem;
     font-weight: 500;
 }
@@ -406,18 +450,22 @@ button {
 
 .step-img {
     max-width: 260px;
+
     margin: 0 auto 1.25rem;
+
     border-radius: 0.5rem;
 }
 
 .step-title {
     margin-bottom: 0.5rem;
+
     font-size: 1.25rem;
     font-weight: 600;
 }
 
 .step-desc {
     max-width: 350px;
+
     margin: 0 auto;
 }
 
@@ -425,6 +473,7 @@ button {
 
 .inspiration {
     padding-block: 5rem;
+
     overflow: hidden;
 }
 
@@ -437,6 +486,7 @@ button {
     align-items: center;
 
     width: max-content;
+
     margin-top: 2rem;
 
     animation: scroll-left 40s linear infinite;
@@ -448,12 +498,14 @@ button {
 
 .inspiration-card {
     padding-inline: 1.25rem;
+
     text-align: center;
 }
 
 .inspiration-img {
     width: 200px;
     height: 200px;
+
     margin-bottom: 1rem;
 
     object-fit: cover;
@@ -471,6 +523,7 @@ button {
 
 .inspiration-country {
     color: var(--gray);
+
     font-size: 0.9rem;
     font-weight: 400;
 }
@@ -493,9 +546,13 @@ button {
 
 .property {
     overflow: hidden;
+
     background-color: var(--white);
+
     border-radius: 0.75rem;
+
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+
     transition: transform 0.3s ease;
 }
 
@@ -505,6 +562,7 @@ button {
 
 .property-img {
     height: 200px;
+
     object-fit: cover;
 }
 
@@ -514,20 +572,25 @@ button {
 
 .property-title {
     margin-bottom: 0.25rem;
+
     font-size: 1.15rem;
     font-weight: 600;
 }
 
 .property-location {
     margin-bottom: 1rem;
+
     color: var(--gray);
+
     font-size: 0.9rem;
 }
 
 .property-reviews {
     display: flex;
     align-items: center;
+
     color: var(--dark);
+
     font-size: 0.9rem;
     font-weight: 600;
 }
@@ -539,7 +602,9 @@ button {
     padding: 2px 8px;
 
     color: var(--white);
+
     background-color: var(--primary);
+
     border-radius: 0.25rem;
 
     font-weight: 700;
@@ -557,16 +622,19 @@ button {
 
 .blog-img {
     height: 220px;
+
     margin-bottom: 0.75rem;
 
     object-fit: cover;
 
     border-radius: 0.75rem;
+
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
 }
 
 .blog-title {
     margin-bottom: 0.35rem;
+
     font-size: 1.1rem;
     font-weight: 600;
     line-height: 1.4;
@@ -574,6 +642,7 @@ button {
 
 .blog-date {
     color: var(--gray);
+
     font-size: 0.85rem;
 }
 
@@ -581,6 +650,7 @@ button {
 
 .promo {
     position: relative;
+
     isolation: isolate;
 }
 
@@ -600,6 +670,7 @@ button {
 
 .promo-container {
     display: grid;
+
     gap: 2rem;
 
     padding: 4rem 2rem;
@@ -617,6 +688,7 @@ button {
     background-size: cover;
 
     border-radius: 1rem;
+
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
 }
 
@@ -629,6 +701,7 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
+
     gap: 1rem;
 }
 
@@ -640,17 +713,20 @@ button {
 
 .footer-brand {
     color: var(--dark);
+
     font-size: 1.5rem;
     font-weight: 700;
 }
 
 .footer-list {
     display: grid;
+
     gap: 0.75rem;
 }
 
 .footer-link {
     color: var(--dark);
+
     font-size: 0.9rem;
     font-weight: 500;
 }
@@ -665,7 +741,9 @@ button {
     border-top: 1px solid rgba(0, 0, 0, 0.08);
 
     color: var(--gray);
+
     font-size: 0.85rem;
+
     text-align: center;
 }
 
@@ -719,7 +797,9 @@ button {
         flex-direction: row;
 
         width: auto;
+
         gap: 2rem;
+
         padding: 0;
 
         background-color: transparent;
@@ -736,6 +816,7 @@ button {
 
     .hero {
         display: grid;
+
         grid-template-columns: 3fr 2fr;
 
         align-items: center;
@@ -748,7 +829,15 @@ button {
     .hero-title {
         font-size: 4.25rem;
         line-height: 1.15;
+
         text-align: left;
+    }
+
+    .hero-content {
+        padding: 0;
+        background-color: transparent;
+        backdrop-filter: none;
+        -webkit-backdrop-filter: none;
     }
 
     .hero-desc {
@@ -769,6 +858,7 @@ button {
 
     .promo-container {
         grid-template-columns: repeat(2, 1fr);
+
         align-items: center;
     }
 
